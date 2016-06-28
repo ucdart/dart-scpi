@@ -1,0 +1,13 @@
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\dart-scpi.exe.config
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\obj\Debug\dart-scpi.exe
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\obj\Debug\dart-scpi.pdb
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\dart-scpi.exe
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\dart-scpi.pdb
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\obj\Debug\dart-scpi.csprojResolveAssemblyReference.cache
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\obj\Debug\dart_scpi.Form1.resources
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\obj\Debug\dart_scpi.Properties.Resources.resources
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\obj\Debug\dart-scpi.csproj.GenerateResource.Cache
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\Ivi.Visa.dll
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\Keysight.Visa.dll
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\Ivi.Visa.xml
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\bin\Debug\Keysight.Visa.xml
