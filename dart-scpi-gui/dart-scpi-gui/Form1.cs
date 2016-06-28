@@ -384,5 +384,14 @@ namespace dart_scpi_ui
         {
 
         }
+
+        private void aboutDARTSCPIToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Copyright \u00A9 Davis Adaptive RF Technology Laboratory \nand Jun D. Ouyang 2016. All Rights Reserved.",
+                "About DART-SCPI",
+                                 MessageBoxButtons.OK,
+                                 MessageBoxIcon.Information);
+            return;
+        }
     }
 }

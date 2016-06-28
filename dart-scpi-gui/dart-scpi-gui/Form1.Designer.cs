@@ -75,6 +75,9 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.numpoints = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutDARTSCPIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -82,6 +85,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.plot)).BeginInit();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numpoints)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -105,9 +109,9 @@
             this.groupBox1.Controls.Add(this.s31);
             this.groupBox1.Controls.Add(this.s21);
             this.groupBox1.Controls.Add(this.s11);
-            this.groupBox1.Location = new System.Drawing.Point(9, 7);
+            this.groupBox1.Location = new System.Drawing.Point(9, 28);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(366, 131);
+            this.groupBox1.Size = new System.Drawing.Size(366, 116);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "S-Parameters";
@@ -115,7 +119,7 @@
             // 
             // two
             // 
-            this.two.Location = new System.Drawing.Point(255, 27);
+            this.two.Location = new System.Drawing.Point(248, 18);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(76, 22);
             this.two.TabIndex = 18;
@@ -125,7 +129,7 @@
             // 
             // none
             // 
-            this.none.Location = new System.Drawing.Point(255, 87);
+            this.none.Location = new System.Drawing.Point(248, 78);
             this.none.Name = "none";
             this.none.Size = new System.Drawing.Size(76, 23);
             this.none.TabIndex = 17;
@@ -135,7 +139,7 @@
             // 
             // all
             // 
-            this.all.Location = new System.Drawing.Point(255, 57);
+            this.all.Location = new System.Drawing.Point(248, 48);
             this.all.Name = "all";
             this.all.Size = new System.Drawing.Size(76, 22);
             this.all.TabIndex = 16;
@@ -146,7 +150,7 @@
             // s44
             // 
             this.s44.AutoSize = true;
-            this.s44.Location = new System.Drawing.Point(187, 97);
+            this.s44.Location = new System.Drawing.Point(180, 88);
             this.s44.Name = "s44";
             this.s44.Size = new System.Drawing.Size(45, 17);
             this.s44.TabIndex = 15;
@@ -156,7 +160,7 @@
             // s34
             // 
             this.s34.AutoSize = true;
-            this.s34.Location = new System.Drawing.Point(187, 74);
+            this.s34.Location = new System.Drawing.Point(180, 65);
             this.s34.Name = "s34";
             this.s34.Size = new System.Drawing.Size(45, 17);
             this.s34.TabIndex = 14;
@@ -166,7 +170,7 @@
             // s24
             // 
             this.s24.AutoSize = true;
-            this.s24.Location = new System.Drawing.Point(187, 51);
+            this.s24.Location = new System.Drawing.Point(180, 42);
             this.s24.Name = "s24";
             this.s24.Size = new System.Drawing.Size(45, 17);
             this.s24.TabIndex = 13;
@@ -176,7 +180,7 @@
             // s14
             // 
             this.s14.AutoSize = true;
-            this.s14.Location = new System.Drawing.Point(187, 28);
+            this.s14.Location = new System.Drawing.Point(180, 19);
             this.s14.Name = "s14";
             this.s14.Size = new System.Drawing.Size(45, 17);
             this.s14.TabIndex = 12;
@@ -186,7 +190,7 @@
             // s43
             // 
             this.s43.AutoSize = true;
-            this.s43.Location = new System.Drawing.Point(136, 97);
+            this.s43.Location = new System.Drawing.Point(129, 88);
             this.s43.Name = "s43";
             this.s43.Size = new System.Drawing.Size(45, 17);
             this.s43.TabIndex = 11;
@@ -196,7 +200,7 @@
             // s33
             // 
             this.s33.AutoSize = true;
-            this.s33.Location = new System.Drawing.Point(136, 74);
+            this.s33.Location = new System.Drawing.Point(129, 65);
             this.s33.Name = "s33";
             this.s33.Size = new System.Drawing.Size(45, 17);
             this.s33.TabIndex = 10;
@@ -206,7 +210,7 @@
             // s23
             // 
             this.s23.AutoSize = true;
-            this.s23.Location = new System.Drawing.Point(136, 51);
+            this.s23.Location = new System.Drawing.Point(129, 42);
             this.s23.Name = "s23";
             this.s23.Size = new System.Drawing.Size(45, 17);
             this.s23.TabIndex = 9;
@@ -216,7 +220,7 @@
             // s13
             // 
             this.s13.AutoSize = true;
-            this.s13.Location = new System.Drawing.Point(136, 28);
+            this.s13.Location = new System.Drawing.Point(129, 19);
             this.s13.Name = "s13";
             this.s13.Size = new System.Drawing.Size(45, 17);
             this.s13.TabIndex = 8;
@@ -226,7 +230,7 @@
             // s42
             // 
             this.s42.AutoSize = true;
-            this.s42.Location = new System.Drawing.Point(85, 97);
+            this.s42.Location = new System.Drawing.Point(78, 88);
             this.s42.Name = "s42";
             this.s42.Size = new System.Drawing.Size(45, 17);
             this.s42.TabIndex = 7;
@@ -236,7 +240,7 @@
             // s32
             // 
             this.s32.AutoSize = true;
-            this.s32.Location = new System.Drawing.Point(85, 74);
+            this.s32.Location = new System.Drawing.Point(78, 65);
             this.s32.Name = "s32";
             this.s32.Size = new System.Drawing.Size(45, 17);
             this.s32.TabIndex = 6;
@@ -246,7 +250,7 @@
             // s22
             // 
             this.s22.AutoSize = true;
-            this.s22.Location = new System.Drawing.Point(85, 51);
+            this.s22.Location = new System.Drawing.Point(78, 42);
             this.s22.Name = "s22";
             this.s22.Size = new System.Drawing.Size(45, 17);
             this.s22.TabIndex = 5;
@@ -256,7 +260,7 @@
             // s12
             // 
             this.s12.AutoSize = true;
-            this.s12.Location = new System.Drawing.Point(85, 28);
+            this.s12.Location = new System.Drawing.Point(78, 19);
             this.s12.Name = "s12";
             this.s12.Size = new System.Drawing.Size(45, 17);
             this.s12.TabIndex = 4;
@@ -266,7 +270,7 @@
             // s41
             // 
             this.s41.AutoSize = true;
-            this.s41.Location = new System.Drawing.Point(34, 97);
+            this.s41.Location = new System.Drawing.Point(27, 88);
             this.s41.Name = "s41";
             this.s41.Size = new System.Drawing.Size(45, 17);
             this.s41.TabIndex = 3;
@@ -276,7 +280,7 @@
             // s31
             // 
             this.s31.AutoSize = true;
-            this.s31.Location = new System.Drawing.Point(34, 74);
+            this.s31.Location = new System.Drawing.Point(27, 65);
             this.s31.Name = "s31";
             this.s31.Size = new System.Drawing.Size(45, 17);
             this.s31.TabIndex = 2;
@@ -286,7 +290,7 @@
             // s21
             // 
             this.s21.AutoSize = true;
-            this.s21.Location = new System.Drawing.Point(34, 51);
+            this.s21.Location = new System.Drawing.Point(27, 42);
             this.s21.Name = "s21";
             this.s21.Size = new System.Drawing.Size(45, 17);
             this.s21.TabIndex = 1;
@@ -296,7 +300,7 @@
             // s11
             // 
             this.s11.AutoSize = true;
-            this.s11.Location = new System.Drawing.Point(34, 28);
+            this.s11.Location = new System.Drawing.Point(27, 19);
             this.s11.Name = "s11";
             this.s11.Size = new System.Drawing.Size(45, 17);
             this.s11.TabIndex = 0;
@@ -592,6 +596,31 @@
             this.label8.TabIndex = 4;
             this.label8.Text = "Number of Points";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1016, 24);
+            this.menuStrip1.TabIndex = 6;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutDARTSCPIToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // aboutDARTSCPIToolStripMenuItem
+            // 
+            this.aboutDARTSCPIToolStripMenuItem.Name = "aboutDARTSCPIToolStripMenuItem";
+            this.aboutDARTSCPIToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.aboutDARTSCPIToolStripMenuItem.Text = "About DART-SCPI";
+            this.aboutDARTSCPIToolStripMenuItem.Click += new System.EventHandler(this.aboutDARTSCPIToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -604,6 +633,8 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "DART-SCPI";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -618,7 +649,10 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numpoints)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -669,6 +703,9 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.NumericUpDown numpoints;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutDARTSCPIToolStripMenuItem;
     }
 }
 
