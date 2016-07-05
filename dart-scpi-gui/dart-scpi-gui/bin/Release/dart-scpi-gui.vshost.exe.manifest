@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi-gui.exe" size="36864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi-gui.exe" size="37888">
       <assemblyIdentity name="dart-scpi-gui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uwMB1CNm933zzYKjEELZ1d96yVX5935nAWKLGdJL/D8=</dsig:DigestValue>
+        <dsig:DigestValue>9U7P7vd2JkAo3Jwsu4JwPfY4bGrR5MbrpMESt2aAFyY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

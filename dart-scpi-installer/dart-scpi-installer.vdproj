@@ -40,6 +40,12 @@
         "Entry"
         {
         "MsmKey" = "8:_2BB95961446931E55BA9ACB366B247FC"
+        "OwnerKey" = "8:_5DE9E1787E8E474EB167D0DAA815BFA1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2BB95961446931E55BA9ACB366B247FC"
         "OwnerKey" = "8:_32E21054142A6F42106D5F917985C089"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,12 +53,6 @@
         {
         "MsmKey" = "8:_2BB95961446931E55BA9ACB366B247FC"
         "OwnerKey" = "8:_9262EA872F257D9B5053AFAA83664FF8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2BB95961446931E55BA9ACB366B247FC"
-        "OwnerKey" = "8:_5DE9E1787E8E474EB167D0DAA815BFA1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,6 +88,12 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2BB95961446931E55BA9ACB366B247FC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_32E21054142A6F42106D5F917985C089"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -101,12 +107,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1863B3B38693E3F555D75A989595F633"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2BB95961446931E55BA9ACB366B247FC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -134,6 +134,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
             }
         }
         "Release"
@@ -459,7 +467,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DART SCPI"
         "ProductCode" = "8:{5E307E2E-89DF-4AB4-A209-AF976D55E0B0}"
-        "PackageCode" = "8:{77C87537-F08A-4A5A-8B59-FD471D369FFC}"
+        "PackageCode" = "8:{44638FB6-8734-495A-AFE9-BF960D565894}"
         "UpgradeCode" = "8:{4BB0B0C3-4F8E-4D62-ABDF-B74C981C90D9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -476,7 +484,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_08F1A12979F543A6B42CC12935BF39D1"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -1061,7 +1069,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5DE9E1787E8E474EB167D0DAA815BFA1"
             {
-            "SourcePath" = "8:..\\..\\..\\dart-scpi-gui\\dart-scpi-gui\\obj\\Release\\dart-scpi-gui.exe"
+            "SourcePath" = "8:..\\dart-scpi-gui\\dart-scpi-gui\\obj\\Release\\dart-scpi-gui.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_95B964950C834618B9C83FB81193508C"

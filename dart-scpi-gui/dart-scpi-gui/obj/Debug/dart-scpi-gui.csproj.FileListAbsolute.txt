@@ -40,3 +40,4 @@ C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Debug\dart-scpi-gui.TrustInfo.xml
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Debug\dart-scpi-gui.exe.manifest
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Debug\dart-scpi-gui.application
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Debug\dart-scpi-gui.csprojResolveAssemblyReference.cache

@@ -18,8 +18,6 @@ C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi-gui\dart-scpi-gui\o
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.exe
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.pdb
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\bin\Release\dart-scpi-gui.exe.config
-C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.exe
-C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.pdb
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\bin\Release\dart-scpi-gui.exe.manifest
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\bin\Release\dart-scpi-gui.application
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\bin\Release\dart-scpi-gui.exe
@@ -37,3 +35,5 @@ C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.TrustInfo.xml
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.exe.manifest
 C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.application
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.exe
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi-gui\dart-scpi-gui\obj\Release\dart-scpi-gui.pdb

@@ -317,6 +317,7 @@ namespace dart_scpi_ui
             plot.ChartAreas["chart"].AxisX.Minimum = freqs[0];
             plot.ChartAreas["chart"].AxisX.Maximum = freqs[freqs.Length-1];
             plot.ChartAreas["chart"].AxisX.Title = "Frequency "+uStart.Text;
+            plot.ChartAreas["chart"].AxisX.LabelStyle.Format = "{0:0}.#";
 
             //plot.ChartAreas["chart"].AxisX.Interval = freqs[0];
 
@@ -367,6 +368,7 @@ namespace dart_scpi_ui
 
             plot.ChartAreas["chart"].AxisY.Minimum = yMin-5;
             plot.ChartAreas["chart"].AxisY.Maximum = yMax+5;
+            plot.ChartAreas["chart"].AxisY.LabelStyle.Format = "{0:0}.#";
             plot.ChartAreas["chart"].AxisY.Title = "Magnitude (dB)";
 
             s.SetPoints(num);
