@@ -52,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>cavfil.ico</ApplicationIcon>
+    <ApplicationIcon>default.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>dart_scpi_ui.Program</StartupObject>
@@ -146,6 +146,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cavfil.ico" />
+    <Content Include="dart-icon_0029.ico" />
+    <Content Include="default.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
