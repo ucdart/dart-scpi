@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_08F1A12979F543A6B42CC12935BF39D1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0BB319494FD04A5BAF7F3A1A4AFBD578"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -190,6 +196,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_08F1A12979F543A6B42CC12935BF39D1"
+            {
+            "SourcePath" = "8:\\\\Mac\\Home\\Downloads\\ucdart-icon.ico"
+            "TargetName" = "8:ucdart-icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_7C1C7FD64CDB4BB28CCEAC79D662A92D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BB319494FD04A5BAF7F3A1A4AFBD578"
             {
             "SourcePath" = "8:\\\\Mac\\Home\\Downloads\\ucdart.png"
@@ -433,7 +459,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DART SCPI"
         "ProductCode" = "8:{5E307E2E-89DF-4AB4-A209-AF976D55E0B0}"
-        "PackageCode" = "8:{2979BE0B-914C-4026-BAC5-6B8961117760}"
+        "PackageCode" = "8:{77C87537-F08A-4A5A-8B59-FD471D369FFC}"
         "UpgradeCode" = "8:{4BB0B0C3-4F8E-4D62-ABDF-B74C981C90D9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -553,6 +579,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2F8E89A52057479383A6B6C21386C2B9"
+            {
+            "Name" = "8:DART SCPI"
+            "Arguments" = "8:"
+            "Description" = "8:GUI for Agilent E5071A VNA"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_5DE9E1787E8E474EB167D0DAA815BFA1"
+            "Folder" = "8:_AFDD6124B4A545069BDB47435C69F872"
+            "WorkingFolder" = "8:_95B964950C834618B9C83FB81193508C"
+            "Icon" = "8:_08F1A12979F543A6B42CC12935BF39D1"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_60205D8B107640EB80D9F14F4C513690"
+            {
+            "Name" = "8:DART SCPI"
+            "Arguments" = "8:"
+            "Description" = "8:GUI for Agilent E5071A VNA"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_5DE9E1787E8E474EB167D0DAA815BFA1"
+            "Folder" = "8:_95BB89E7D92F423093E4CD1DBDE0FC1E"
+            "WorkingFolder" = "8:_95B964950C834618B9C83FB81193508C"
+            "Icon" = "8:_08F1A12979F543A6B42CC12935BF39D1"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
