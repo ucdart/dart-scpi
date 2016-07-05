@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "dart-scpi-installer", "dart-scpi-installer\dart-scpi-installer.vdproj", "{E2381933-E2D8-4586-80D4-7C9CFA61FDE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2381933-E2D8-4586-80D4-7C9CFA61FDE7}.Debug|Default.ActiveCfg = Debug
+		{E2381933-E2D8-4586-80D4-7C9CFA61FDE7}.Debug|Default.Build.0 = Debug
+		{E2381933-E2D8-4586-80D4-7C9CFA61FDE7}.Release|Default.ActiveCfg = Release
+		{E2381933-E2D8-4586-80D4-7C9CFA61FDE7}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
