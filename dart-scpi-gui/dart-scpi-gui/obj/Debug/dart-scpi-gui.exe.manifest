@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="dart-scpi-gui.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="cavfil.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:iconFile="default.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="dart-scpi-gui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi.dll" size="6656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi.dll" size="7168">
       <assemblyIdentity name="dart-scpi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>S6Sz9joWgkm7qPZ1y3yqrlQ4ujGn1+7bqEmBbJqY/s4=</dsig:DigestValue>
+        <dsig:DigestValue>7hmn2KrI91b6HZUeMmTT6hA9/b1fIajCReP5EVk2eKY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi-gui.exe" size="38912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi-gui.exe" size="64512">
       <assemblyIdentity name="dart-scpi-gui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>I4SAtLS5qHtQyfAaTVYP+HuRYUJ1wzemJhrgKMfO6FM=</dsig:DigestValue>
+        <dsig:DigestValue>EB9R21XVqJzS+qFOexeu4dCOuKXxema7mwtPwez+Q88=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -106,6 +106,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="default.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uZy4A9FhdmcuQpI6xlQgL2Xd5X1nN3iJpXreJuyCfF0=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

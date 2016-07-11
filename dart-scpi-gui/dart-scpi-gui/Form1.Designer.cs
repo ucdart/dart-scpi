@@ -79,6 +79,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutDARTSCPIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.connection = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -522,7 +525,7 @@
             // 
             // progress
             // 
-            this.progress.Location = new System.Drawing.Point(9, 402);
+            this.progress.Location = new System.Drawing.Point(9, 421);
             this.progress.Name = "progress";
             this.progress.Size = new System.Drawing.Size(995, 28);
             this.progress.TabIndex = 4;
@@ -622,11 +625,37 @@
             this.aboutDARTSCPIToolStripMenuItem.Text = "About DART-SCPI";
             this.aboutDARTSCPIToolStripMenuItem.Click += new System.EventHandler(this.aboutDARTSCPIToolStripMenuItem_Click);
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 400);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "VNA Status:";
+            // 
+            // connection
+            // 
+            this.connection.AutoSize = true;
+            this.connection.Location = new System.Drawing.Point(84, 400);
+            this.connection.Name = "connection";
+            this.connection.Size = new System.Drawing.Size(73, 13);
+            this.connection.TabIndex = 8;
+            this.connection.Text = "Disconnected";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 442);
+            this.ClientSize = new System.Drawing.Size(1016, 459);
+            this.Controls.Add(this.connection);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.progress);
@@ -708,6 +737,9 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutDARTSCPIToolStripMenuItem;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label connection;
     }
 }
 

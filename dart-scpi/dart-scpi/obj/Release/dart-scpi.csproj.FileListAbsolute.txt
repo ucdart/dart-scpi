@@ -1,0 +1,8 @@
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\bin\Release\dart-scpi.dll
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\bin\Release\dart-scpi.pdb
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\bin\Release\Ivi.Visa.dll
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\bin\Release\Keysight.Visa.dll
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\bin\Release\Ivi.Visa.xml
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\bin\Release\Keysight.Visa.xml
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\obj\Release\dart-scpi.dll
+C:\Users\Jun\Documents\Visual Studio 2015\Projects\dart-scpi\dart-scpi\dart-scpi\obj\Release\dart-scpi.pdb

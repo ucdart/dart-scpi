@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi.dll" size="6656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi.dll" size="7168">
       <assemblyIdentity name="dart-scpi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>S6Sz9joWgkm7qPZ1y3yqrlQ4ujGn1+7bqEmBbJqY/s4=</dsig:DigestValue>
+        <dsig:DigestValue>7hmn2KrI91b6HZUeMmTT6hA9/b1fIajCReP5EVk2eKY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi-gui.exe" size="61952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dart-scpi-gui.exe" size="63488">
       <assemblyIdentity name="dart-scpi-gui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cHzBN1/GY4PiwChPZHU+VRWpnaKyBOtbu7zJpH3p7bs=</dsig:DigestValue>
+        <dsig:DigestValue>PaIqNq7twNYB0iq+nMz2PK7pBOqUG6fDjBHi/KRVpwQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

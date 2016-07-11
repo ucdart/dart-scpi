@@ -12,9 +12,29 @@ namespace dart_scpi
 {
     public class scpi
     {
+        public scpi()
+        {
+            this.resource = null;
+            this.resource = new ResourceManager();
+        }
+
         public void connect()
         {
-            this.session = new GpibSession("GPIB0::16::INSTR", Ivi.Visa.AccessModes.None, TimeSpan.MaxValue);
+            this.resource = new ResourceManager();
+            this.session = (GpibSession) resource.Open(CONN, Ivi.Visa.AccessModes.None, TimeSpan.MaxValue.Milliseconds);
+            while (this.session == null) ;
+        }
+
+        public bool IsConnected()
+        {
+            IEnumerable<string> devices = resource.Find(CONN);
+            int i = 0;
+            foreach (string device in devices)
+            {
+                //Debug.Print(device);
+                i++;
+            }
+            return i > 0;
         }
 
         public void write(string str)
@@ -158,5 +178,7 @@ namespace dart_scpi
         }
 
         private GpibSession session;
+        private IResourceManager resource;
+        public static string CONN = "GPIB0::16::INSTR";
     }
 }

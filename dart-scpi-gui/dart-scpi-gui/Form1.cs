@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using dart_scpi;
 using System.Threading;
 using System.Windows.Forms.DataVisualization.Charting;
+using Keysight.Visa;
 
 namespace dart_scpi_ui
 {
@@ -21,11 +22,18 @@ namespace dart_scpi_ui
         int unitSpan = 3;
         int unitStart = 3;
         int unitEnd = 3;
+        string AppName = "DART SCPI";
+
+        //private Thread statusThread;
+        private scpi s;
 
         public Form1()
         {
             InitializeComponent();
+            s = new scpi();
+            backgroundWorker1.RunWorkerAsync();
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -267,7 +275,7 @@ namespace dart_scpi_ui
             StreamWriter sw = new StreamWriter(fs);
 
             analyse.Enabled = false;
-            scpi s = new scpi();
+            
             s.connect();
 
             plot.Series.Clear();
@@ -317,7 +325,7 @@ namespace dart_scpi_ui
             plot.ChartAreas["chart"].AxisX.Minimum = freqs[0];
             plot.ChartAreas["chart"].AxisX.Maximum = freqs[freqs.Length-1];
             plot.ChartAreas["chart"].AxisX.Title = "Frequency "+uStart.Text;
-            plot.ChartAreas["chart"].AxisX.LabelStyle.Format = "{0:0}.#";
+            plot.ChartAreas["chart"].AxisX.LabelStyle.Format = "{0:0.0}";
 
             //plot.ChartAreas["chart"].AxisX.Interval = freqs[0];
 
@@ -368,7 +376,7 @@ namespace dart_scpi_ui
 
             plot.ChartAreas["chart"].AxisY.Minimum = yMin-5;
             plot.ChartAreas["chart"].AxisY.Maximum = yMax+5;
-            plot.ChartAreas["chart"].AxisY.LabelStyle.Format = "{0:0}.#";
+            plot.ChartAreas["chart"].AxisY.LabelStyle.Format = "{0:0.0}";
             plot.ChartAreas["chart"].AxisY.Title = "Magnitude (dB)";
 
             s.SetPoints(num);
@@ -387,6 +395,11 @@ namespace dart_scpi_ui
 
         }
 
+        private void Form1_Closing(object sender, CancelEventArgs e)
+        {
+            //backgroundWorker1.RunWorkerCompleted();
+        }
+
         private void aboutDARTSCPIToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Copyright \u00A9 Davis Adaptive RF Technology Laboratory \nand Jun D. Ouyang 2016. All Rights Reserved.",
@@ -395,5 +408,34 @@ namespace dart_scpi_ui
                                 MessageBoxIcon.Information);
             return;
         }
+
+        private volatile string status = null;
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            BackgroundWorker worker = sender as BackgroundWorker;
+            int i = 0;
+            while (true)
+            {
+                if (s.IsConnected())
+                {
+                    status = "[Connected]";
+                }
+                else
+                {
+                    status = "[Disconnected]";
+                }
+                worker.ReportProgress(i++);
+                Thread.Sleep(100);
+            }
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            this.connection.Text = status;
+        }
+
+
+
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dart-scpi-gui", "dart-scpi-
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "dart-scpi-installer", "..\dart-scpi-installer\dart-scpi-installer.vdproj", "{65BFA6E8-014E-45D0-8233-2F062DA41748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dart-scpi", "..\dart-scpi\dart-scpi\dart-scpi.csproj", "{957D9070-781F-4880-9AEB-3B28A854D28F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{65BFA6E8-014E-45D0-8233-2F062DA41748}.Debug|Any CPU.Build.0 = Debug
 		{65BFA6E8-014E-45D0-8233-2F062DA41748}.Release|Any CPU.ActiveCfg = Release
 		{65BFA6E8-014E-45D0-8233-2F062DA41748}.Release|Any CPU.Build.0 = Release
+		{957D9070-781F-4880-9AEB-3B28A854D28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957D9070-781F-4880-9AEB-3B28A854D28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957D9070-781F-4880-9AEB-3B28A854D28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957D9070-781F-4880-9AEB-3B28A854D28F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
